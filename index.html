@@ -11,11 +11,22 @@
       <button onclick="myFunction()" align="center">Download Project Script</button>
     </div>
     <p id="title" style="text-align:center"></p>
-    <img id="khaled" alt="" />
+    <img id="khaled" alt="MissionFailed" />
+    
+    <img src="http://i3.kym-cdn.com/photos/images/newsfeed/001/056/730/597.jpg" class="hidden">
+
+    
+
+
+    .classHidden {
+       display: none;
+     }
+    
     <script>
     function myFunction() {
         document.getElementById("title").innerHTML = "Congrats You Played Yourself";
-        document.getElementById("khaled").src = "http://i3.kym-cdn.com/photos/images/newsfeed/001/056/730/597.jpg";
+        //document.getElementById("khaled").src = "http://i3.kym-cdn.com/photos/images/newsfeed/001/056/730/597.jpg";
+        document.getElementById("theid").className = ""; // remove the hidden class.
     }
     </script>
        
