@@ -15,14 +15,14 @@
     <p id="article" style="color:white;">
       This is supposed to be the article I am writing.
     </p>
-    <script>
-      function myFunction(boolean varname) {
-        
-        document.getElementById("article").style.color = "red";
-    
-      }
-    </script>
-    
-    <button type="button" name="button" onclick="myFuction()">Yo this a button</button>
+    <button onclick="myFunction()">Click me</button>
+
+      <p id="demo"></p>
+
+        <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Hello World";
+        }
+          </script>
   </body>
 </html>
